@@ -30,13 +30,27 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain how to build stateful class components.
 
+- You build a constructor that is able to hold state. You call super() and declare this.state is = to an object.
+
 2. Describe the different phases of the component lifecycle.
+
+The three phases are Mounting, Updating, and Unmoounting. Mounting is like the birth of the react life cycle, while updating is the life and unmounting is the death.
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
+cDM is renders whatever stateful change exists to the DOM. 
+
+cDU is called when a component or an internal state has been changed.
+
+cWU preforms any kind of cleanup with the removal of the component.
+
 4. Define stateful logic.
 
+Stateful logic is logic that involves any kind of manipulation of state.
+
 5. Describe how to test a React component with React Testing Library.
+
+Create a component.test.js file, and call test(). Open the terminal and run NPM test.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
